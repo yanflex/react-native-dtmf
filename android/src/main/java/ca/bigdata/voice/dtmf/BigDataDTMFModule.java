@@ -62,7 +62,7 @@ public class BigDataDTMFModule extends ReactContextBaseJavaModule {
 
   @ReactMethod
   public void startTone(int tone) {
-    mToneGenerator.startTone(tone, 5000);
+    mToneGenerator.startTone(tone);
   }
 
   @ReactMethod
